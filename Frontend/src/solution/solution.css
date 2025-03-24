@@ -1,0 +1,345 @@
+/* General Section Styling */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+h2,
+h3 {
+  margin: 0;
+}
+
+/* Sector 1 Styling */
+.sector1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+}
+
+.sector1-text {
+  max-width: 50%;
+}
+
+.sector1-text h2 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.sector1-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.sector1-text ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.sector1-text li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.sector1-text .btn-primary {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sector1-text .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.sector1-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design for Sector 1 */
+@media (max-width: 768px) {
+  .sector1 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sector1-text {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .sector1-image {
+    margin-top: 20px;
+  }
+}
+
+/* Sector 2 Styling */
+.sector-two {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.sector-two .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.sector-two-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.benefit-card {
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.percentage-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.percentage {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #4caf50;
+  margin: 0;
+}
+
+.percentage-container span {
+  font-size: 2rem;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.benefit-title {
+  font-size: 1.4rem;
+  margin: 20px 0 10px;
+  color: #333;
+}
+
+.benefit-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive Design for Sector 2 */
+@media (max-width: 768px) {
+  .benefit-card {
+    width: 90%;
+  }
+}
+/* General Section Styling */
+.ai-solutions {
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+}
+
+.ai-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #111;
+}
+
+/* Three Column Layout */
+.ai-sections {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.ai-column {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 32%;
+  min-width: 300px;
+  transition: box-shadow 0.3s ease;
+}
+
+.ai-column h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #4caf50;
+}
+
+.ai-column p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.ai-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ai-column li {
+  font-size: 1rem;
+  padding: 5px 0;
+}
+
+.ai-column li::before {
+  content: "•";
+  color: #4caf50;
+  font-weight: bold;
+  display: inline-block;
+  width: 1rem;
+  margin-left: -1rem;
+}
+
+/* Hover Effects */
+.ai-column:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .ai-sections {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ai-column {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+.company-section {
+  background: linear-gradient(
+    135deg,
+    #66bb6a,
+    #388e3c
+  ); /* Smooth green gradient */
+  color: #fff;
+  padding: 3rem 1rem;
+  overflow: hidden; /* Prevent scrollbars */
+  white-space: nowrap; /* Prevent line breaks */
+  position: relative;
+}
+
+.company-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.marquee-container {
+  display: flex;
+  width: 100%;
+  animation: marquee 10s linear infinite; /* Scrolling effect */
+}
+
+.marquee-container img {
+  max-width: 150px;
+  margin: 0 2rem; /* Space between logos */
+  height: auto;
+  filter: brightness(0) invert(1); /* Optional: makes logos white */
+  transition: transform 0.3s ease-in-out;
+}
+
+.marquee-container img:hover {
+  transform: scale(0.3); /* Slight zoom effect on hover */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Styles for the Previous Solutions Section */
+.previous-solutions {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+.ins_photo img {
+  max-width: max-content;
+  max-height: max-content;
+}
+
+.previous-solutions .section-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.solutions-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.solution-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.solution-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.solution-challenge {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1a73e8; /* Primary theme color */
+  margin-bottom: 10px;
+}
+
+.solution-description {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .solutions-container {
+    grid-template-columns: 1fr;
+  }
+}

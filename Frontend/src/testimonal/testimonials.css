@@ -1,0 +1,287 @@
+/* Styles for the Testimonial Popup Section */
+.testimonial-popup-section {
+  /* Container for testimonial popup */
+  width: 100%;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.testimonial-card {
+  /* Individual card for each testimonial */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-header {
+  /* Header containing avatar and name/title */
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.testimonial-avatar {
+  /* Avatar image in testimonial card */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #007bff;
+}
+
+.testimonial-name {
+  /* Name of the person giving the testimonial */
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.testimonial-title {
+  /* Title or designation of the person */
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.testimonial-feedback {
+  /* Feedback text snippet in the card */
+  margin: 10px 0;
+}
+
+.testimonial-buttons {
+  /* Button container for actions */
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  /* Base button styles */
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  /* Primary button style */
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-secondary {
+  /* Secondary button style */
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn:hover {
+  /* Button hover effect */
+  opacity: 0.9;
+}
+
+/* Star Ratings */
+.star {
+  /* Generic star style */
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.star.filled {
+  /* Filled star */
+  color: #f5c518;
+}
+
+.star.half {
+  /* Half-filled star */
+  background: linear-gradient(to right, #f5c518 50%, #ccc 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Styles for the Modal Popup */
+.modal-overlay {
+  /* Background overlay for modal */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  /* Main content box of the modal */
+  background: #fff;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  text-align: center;
+}
+
+.modal-header img {
+  /* Avatar image inside modal */
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.modal-rating {
+  /* Star rating inside modal */
+  margin: 10px 0;
+}
+
+.close-btn {
+  /* Close button for modal */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #999;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  /* Hover effect for close button */
+  color: #333;
+}
+
+.modal-feedback {
+  /* Detailed feedback inside modal */
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Styles for the Review Section */
+.review-section {
+  /* Container for review section */
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.section-title {
+  /* Title of the review section */
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+.modal-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff5c5c;
+  border: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+  background-color: #e60000;
+}
+
+.image-modal {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-modal img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+
+.reviews-container {
+  /* Container for individual review cards */
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+  flex-wrap: wrap;
+}
+
+.review-card {
+  /* Individual review card */
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.review-card:hover {
+  /* Hover effect for review cards */
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.revie-image {
+  /* Image of the reviewer */
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 2px solid #007bff;
+  align-items: center;
+}
+
+.review-text {
+  /* Review text */
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.review-author {
+  /* Author of the review */
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}

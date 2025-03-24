@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f8fa;
+}
+
+/* Success Story Section */
+.success-story {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.success-story h2 {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.success-story-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.image-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.success-image {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.reviews-container {
+  flex: 1;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 15px;
+  min-width: 300px;
+}
+
+/* Review Card */
+.review-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.review-text {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* Author Info */
+.review-author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author-icon {
+  font-size: 20px;
+  color: #007bff;
+}
+
+.author-name {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
+
+.author-title {
+  font-size: 12px;
+  color: #777;
+}
+
+/* Star Rating */
+.review-rating {
+  color: #ffcc00;
+}
+
+.star {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.star.filled {
+  color: #ffcc00;
+}
+
+/* Profile Card Section */
+.profile-card-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.profile-card-section h2 {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.profile-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.profile-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.profile-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #007bff;
+}
+
+.profile-name {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+
+.profile-title {
+  font-size: 14px;
+  color: #777;
+}
+
+.profile-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #ffcc00;
+}
+
+.rating-number {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #666;
+}
+
+.profile-description {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .success-story-container,
+  .profile-card-container {
+    flex-direction: column;
+  }
+
+  .profile-card,
+  .review-card {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

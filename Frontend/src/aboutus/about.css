@@ -1,0 +1,316 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background: #f7f7f7;
+}
+
+/* About Us Section */
+.about-us {
+  padding: 50px 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.about-title {
+  color: #86bc25; /* Green accent */
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.welcome-message {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.about-description,
+.about-details {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #555;
+  text-align: left;
+}
+
+/* Our Values Section */
+.our-values {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 50px 20px;
+  background: #f4f4f4;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.icon-container {
+  margin-bottom: 15px;
+}
+
+.icon {
+  font-size: 40px;
+  color: #86bc25;
+}
+
+.box-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #004085;
+  margin: 15px 0;
+}
+
+.box p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Leaders Section */
+.leaders-section {
+  padding: 50px 20px;
+  background: #fff;
+}
+
+.leaders-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.card button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-content {
+    text-align: center;
+  }
+
+  .welcome-message {
+    font-size: 1.8rem;
+  }
+}
+/* General styles */
+.gallery-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.gallery-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+/* Gallery Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card Structure */
+.car {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Image */
+.card-image {
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  object-fit: cover;
+}
+
+/* Card Details */
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  text-align: center;
+  height: 100%; /* Ensures consistent card height */
+}
+
+/* Card Title */
+.card-tit {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Post Name */
+.card-rol {
+  font-size: 14px;
+  color: #666;
+  margin-top: auto; /* Pushes it to the bottom */
+  padding-top: 10px;
+  border-top: 1px solid #eee; /* Optional: Separator line */
+}
+
+/* Popup styles */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-ontent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+}
+
+.popup-image {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.popup-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.popup-itle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.popup-role {
+  font-size: 16px;
+  color: #555;
+}
+.fek {
+  display: flex;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+.popup-close:hover {
+  color: rgb(102, 255, 0);
+}
