@@ -23,8 +23,9 @@ SECRET_KEY = 'django-insecure-mrbkmd=sak7^n&4vr=ih&4hreb#x9j#$(outtp+gdc((v$1@9a
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+##changes
+ALLOWED_HOSTS = []
 
-ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
@@ -50,6 +51,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
 
 ROOT_URLCONF = 'myproject.urls'
