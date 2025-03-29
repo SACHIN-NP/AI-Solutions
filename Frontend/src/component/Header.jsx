@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, NavLink, useLocation, useParams } from "react-router-dom";
-import "./header.css";
+import "./Header.css";
 import { useTranslation } from "react-i18next";
 import logo from "../assets/Ailogo.png";
 
