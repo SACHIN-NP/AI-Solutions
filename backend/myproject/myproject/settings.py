@@ -26,10 +26,6 @@ DEBUG = True
 ##changes
 ALLOWED_HOSTS = []
 
-<<<<<<< HEAD
-=======
-ALLOWED_HOSTS = []
->>>>>>> 68cf42546f0f66af57a33f936b44146a5f6b80c3
 
 
 # Application definition
