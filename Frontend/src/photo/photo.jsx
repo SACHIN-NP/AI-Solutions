@@ -28,25 +28,25 @@ export const Gallery = () => {
       id: 1,
       src: farmer,
       title: " Holiday Party",
-      role: "October 5, 2024",
+      role: "January 6, 2025",
     },
     {
       id: 2,
       src: imagees3,
       title: "Annual Kickoff Meeting",
-      role: "September 10, 2024",
+      role: "February 11, 2025",
     },
     {
       id: 3,
       src: imagees4,
       title: "Team Building Workshop",
-      role: "June 12, 2024",
+      role: "March 21, 2025",
     },
     {
       id: 4,
       src: dae,
       title: "Product Launch Event",
-      role: "May 20, 2024",
+      role: "February 22, 2025",
     },
   ];
 
@@ -56,25 +56,25 @@ export const Gallery = () => {
       id: 1,
       src: sol1, // Replace with relevant event images
       title: "AI in Business Summit",
-      role: "July 15, 2024",
+      role: "July 15, 2025",
     },
     {
       id: 2,
       src: sol2,
       title: "Tech Innovation Conference",
-      role: "August 10, 2024",
+      role: "August 10, 2025",
     },
     {
       id: 3,
       src: sol3,
       title: "Leadership & Growth Workshop",
-      role: "September 5, 2024",
+      role: "September 5, 2025",
     },
     {
       id: 4,
       src: sol4,
       title: "AI Growth Workshop",
-      role: "September 7, 2024",
+      role: "September 7, 2025",
     },
   ];
 
