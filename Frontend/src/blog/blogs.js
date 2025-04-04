@@ -11,7 +11,7 @@ import agr from "../assets/solution/agro6.jpg";
     {
       id: 1,
       title: "How AI is Transforming Agriculture",
-      date: "July 5, 2024",
+      date: "January 21, 2025",
       description:
         "Discover how AI is revolutionizing farming practices and increasing productivity worldwide.",
       image: blogImage,
@@ -22,7 +22,7 @@ import agr from "../assets/solution/agro6.jpg";
     {
       id: 2,
       title: "The Future of Precision Farming",
-      date: "June 28, 2024",
+      date: "Jan 24, 2025",
       description:
         "Explore technologies that enable farmers to optimize resources and improve efficiency.",
       image: agr1,
@@ -33,7 +33,7 @@ import agr from "../assets/solution/agro6.jpg";
     {
       id: 3,
       title: "AI in Crop Monitoring",
-      date: "June 20, 2024",
+      date: "February 20, 2025",
       description:
         "AI-powered tools are helping farmers monitor crops in real-time to boost yields.",
       image: agr2,
@@ -44,7 +44,7 @@ import agr from "../assets/solution/agro6.jpg";
     {
       id: 4,
       title: "Sustainable Agriculture with AI",
-      date: "June 15, 2024",
+      date: "February 22, 2024",
       description:
         "Learn how AI contributes to sustainable farming practices for a better future.",
       image: agr3,
@@ -55,7 +55,7 @@ import agr from "../assets/solution/agro6.jpg";
     {
       id: 5,
       title: "AI and Livestock Management",
-      date: "June 10, 2024",
+      date: "March 21, 2025",
       description:
         "Discover how AI is transforming livestock management with real-time monitoring and predictive analytics.",
       image: agr4,
@@ -66,7 +66,7 @@ import agr from "../assets/solution/agro6.jpg";
     {
       id: 6,
       title: "The Role of AI in Supply Chain Optimization",
-      date: "June 5, 2024",
+      date: "March 22, 2024",
       description:
         "Explore how AI is streamlining agricultural supply chains to reduce costs and improve efficiency.",
       image: agr6,
